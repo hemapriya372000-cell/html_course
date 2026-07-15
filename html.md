@@ -1,3 +1,7 @@
+https://github.com/hemapriya372000-cell/html_course
+//12/07/2026
+
+
 HTML- Hyper Text Markup Language
 Hyper text - linking between webpages - eg: a tag - internal/external
 markup - marks tag 
@@ -28,4 +32,21 @@ javascript- help us manipulate data
 block vs inline 
 inline inside block
 block block, block inline,inline inline, inline block
-sup,sub,
+sup,sub
+
+//7/15/2026
+
+self closing tag - img,input,hr,br
+alt - screenreaders,seo
+svg
+forms - input,textarea,select,
+button
+minlength,maxlength,min, max
+checkbox, radio
+semantic,non sematic tags
+div- block level container to group content for styling and positioning
+inline-used to style portion of container
+semantic tags-accesbility,seo,cleaner code
+![alt text](image.png)
+table , colspan,rowspan
+figure,figcaption
