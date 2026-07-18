@@ -50,3 +50,4 @@ semantic tags-accesbility,seo,cleaner code
 ![alt text](image.png)
 table , colspan,rowspan
 figure,figcaption
+seo  search engine optimization

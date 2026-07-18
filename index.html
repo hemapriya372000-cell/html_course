@@ -1,97 +1,97 @@
 <!-- tells browser that it is an HTML5 document -->
 <!DOCTYPE html>
 <!-- html tag -- root element that wraps all other elements in the document -->
- <!-- lang="en" tells the browser that the content is in English. specific tag also we can give -->
+<!-- lang="en" tells the browser that the content is in English. specific tag also we can give -->
 <html lang="en">
   <!-- head tag -- contains information about the document, such as its title and metadata - doesn't appear on the webpage -->
-    <head>
-      <!-- system for computers to store numbers,symbols,special chaacters -->
-        <meta charset="UTF-8">
-        <!-- ensures content is displayed correctly on different devices and screen sizes -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- page description for search engines -->
-        <meta name="description" content="HTML Course - Lesson 01">
-        <!-- keywords for search engines SEO -->
-        <meta name="keywords" content="HTML, Course, Learning">
-        <!-- favicon - website icon shown in browser tab -->
-        <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
-        <!-- external CSS stylesheet -->
-        <link rel="stylesheet" href="styles.css">
-        <title>Lesson 01</title>
-    </head>
-    <!-- body tag -- contains the content of the document that is displayed on the webpage -->
-    <img>
-      <!-- heading tag from h1 to h6, h1 is the largest and h6 is the smallest -->
-       <!-- h1- used only once,  h1 to h6 with decresing importance  -->
-        <h1>Heading 1</h1> 
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-        <p>This is a paragraph.</p>
-        <!-- list - ordered list and unordered list we can have ol inside ul and vice versa -->
-        <o1>
-          <li>list 1</li>
-          <li>list 2</li>
-          <li>list 3</li>
-        </o1>
-         <ul>
-          <li>list 1</li>
-          <li>list 2</li>
-          <li>list 3</li>
-        </ul>
-        <!-- clickable text/image/element that takes you to another webpage or a different section of the same webpage when clicked. -->
-        <a href="https://www.google.com" target="_blank">Google</a>
-        <h2 id="gotoyoutube">Go to<br> Youtube</h2>
-        <!-- image is a self closing tag, it doesn't have a closing tag like <p> or <h1> -->
-        <img src="html5.png" alt="HTML5 Logo">
-        <hr>
-        <form action="/api" method="post">
-        <label for="name">Name:</label>
-      
-        <!-- <label for="name">Name1:</label> -->
-        <input type="text" id="name"  name="name" required min="10" minllength="10">
-        <label for="phone">Phone:</label>
+  <head>
+    <!-- system for computers to store numbers,symbols,special chaacters -->
+    <meta charset="UTF-8">
+    <!-- ensures content is displayed correctly on different devices and screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page description for search engines -->
+    <meta name="description" content="HTML Course - Lesson 01">
+    <!-- keywords for search engines SEO -->
+    <meta name="keywords" content="HTML, Course, Learning">
+    <!-- favicon - website icon shown in browser tab -->
+    <!-- external CSS stylesheet -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title> HTML COURSE</title>
+    <link rel="icon" href="html5.png">
+  </head>
 
-        <input type="number" id="phone" placeholder="enter name"  name="phone" min="10" minllength="10" max="15" maxlength="15" email>
-        <label for="selectgender">gender:</label>
-
-          <select id="selectgender" name="gender">
-            <option value="M"> male</option>
-            <option value="F"> female</option>
-          </select>
-          <input type="checkbox" id="html" name="html">
-          <label for="html">html</label>
-          <input type="checkbox" id="css" name="css">
-          <label for="css">css</label>
-          <input type="checkbox" id="javascript" name="javascript">
-          <label for="javascript">javascript</label>
-          <input type="radio" id="method" name="method" value="male">
-          <label for="get">Male</label>
-          <input type="radio" id="method" name="method" value="female">
-          <label for="post">Female</label>
-          <input type="file" id="file" name="file">
-          <input type="submit" value="submit" >
-
-        </form>
-      <button>Click Me</button>
-    </body>
+  <!-- body tag -- contains the content of the document that is displayed on the webpage -->
+  <body>
+    <!-- heading tag from h1 to h6, h1 is the largest and h6 is the smallest -->
+    <!-- h1- used only once,  h1 to h6 with decresing importance  -->
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>hema</td>
+            <td>20</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>john</td>
+            <td>23</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+      </table>
+      <span>span tag is used to group inline elements and apply styles or scripts to them.</span>
+      <div>Html 1</div>
+      <p>This is a paragraph related to heading1.</p>
+      <div>
+        <p>
+          content inside a div tag, which is a container for grouping elements together. Div tags are often used for styling and layout purposes.
+        </p>
+        <h1>
+          content
+        </h1>
+      </div>
+    </div>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>This is a paragraph.</p>
+    <!-- list - ordered list and unordered list we can have ol inside ul and vice versa -->
+    <ol>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ol>
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul>
+    <div>heading 1</div>
+    <!-- clickable text/image/element that takes you to another webpage or a different section of the same webpage when clicked. -->
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <h2 id="gotoyoutube">Go to<br> Youtube</h2>
+    <!-- image is a self closing tag, it doesn't have a closing tag like <p> or <h1> -->
+    <hr>
+    <form action="/api" method="post">
+      <label for="name">Name:</label>
+      <!-- <label for="name">Name1:</label> -->
+      <input type="text" id="name" name="name" required minlength="10">
+      <label for="phone">Phone:</label>
+      <input type="number" id="phone" placeholder="enter name" name="phone" min="10" max="15">
+      <label for="selectgender">gender:</label>
+      <select id="selectgender" name="gender">
+        <option value="M">male</option>
+        <option value="F">female</option>
+      </select>
+    </form>
+  </body>
 </html>
-
-{
-  name:'Hema',
-  phone:'12344'
-gender:'F',
-html:true
-css:false
-javascript:false
-method:'female'
-
-}
-method
-
-get
-post
-put
-delete

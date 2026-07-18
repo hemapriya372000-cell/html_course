@@ -52,3 +52,4 @@
 <audio> – Audio file
 <video> – Video file
 <source> – Media source for <audio> or <video>
+figure,figcaption
