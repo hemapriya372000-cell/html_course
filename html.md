@@ -31,7 +31,8 @@ css-help us style specific elememt
 javascript- help us manipulate data
 block vs inline 
 inline inside block
-block block, block inline,inline inline, inline block
+block block, block inline,inline inline -- we can use
+ inline block -- don't use
 sup,sub
 
 //7/15/2026
@@ -51,3 +52,7 @@ semantic tags-accesbility,seo,cleaner code
 table , colspan,rowspan
 figure,figcaption
 seo  search engine optimization
+
+<a href="link">   content </a>
+
+<h1 class="class-name">  content</h1>

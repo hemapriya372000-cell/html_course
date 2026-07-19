@@ -15,17 +15,30 @@
     <meta name="keywords" content="HTML, Course, Learning">
     <!-- favicon - website icon shown in browser tab -->
     <!-- external CSS stylesheet -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <title> HTML COURSE</title>
     <link rel="icon" href="html5.png">
+    <link  rel="stylesheet" href="styles.css">
+    
   </head>
 
   <!-- body tag -- contains the content of the document that is displayed on the webpage -->
   <body>
     <!-- heading tag from h1 to h6, h1 is the largest and h6 is the smallest -->
     <!-- h1- used only once,  h1 to h6 with decresing importance  -->
+    <div class="outer-container-data">
+      <div class="inner-container"></div>
+     <h1 class="heading another-class" id="heading1"> Heading 1</h1>
+     <h1 id="heading2" class="heading">Heading 2</h1>
+     <h1 class="heading">Heading 3</h1>
+
+
+     <span>span tag is used to group inline elements and apply styles or scripts to them.
+        <span></span>
+      </span>
+     </div>
+     //first block of code
     <div>
-      <table>
+      <table border="1">
         <thead>
           <tr>
             <th>name</th>
@@ -45,6 +58,12 @@
             <td>100</td>
           </tr>
         </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">Total</th>
+            <th>190</th>
+          </tr>
+        </tfoot>
       </table>
       <span>span tag is used to group inline elements and apply styles or scripts to them.</span>
       <div>Html 1</div>
@@ -58,6 +77,7 @@
         </h1>
       </div>
     </div>
+    //second block of code
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
@@ -78,6 +98,7 @@
     <div>heading 1</div>
     <!-- clickable text/image/element that takes you to another webpage or a different section of the same webpage when clicked. -->
     <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="dummy.html" > Go to Youtube </a>
     <h2 id="gotoyoutube">Go to<br> Youtube</h2>
     <!-- image is a self closing tag, it doesn't have a closing tag like <p> or <h1> -->
     <hr>
