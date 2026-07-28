@@ -53,3 +53,5 @@
 <video> – Video file
 <source> – Media source for <audio> or <video>
 figure,figcaption
+abbr,entities,em,address,strong,dl,dt,dd
+mailto,imag,download,tel -- anchor
