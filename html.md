@@ -71,3 +71,11 @@ method = post, get ,put
 max, min - 18 -25
 
 maxlength minlength -+919098676577
+
+
+semantic html, non semantic html (div, span)
+block vs inline html
+
+if(true){
+  condition
+}

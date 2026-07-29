@@ -18,18 +18,54 @@
     <title> HTML COURSE</title>
     <link rel="icon" href="html5.png">
     <link  rel="stylesheet" href="styles.css">
+    <style>
+      h1{
+        color:blue
+      }
+    </style>
   </head>
   <!-- body tag -- contains the content of the document that is displayed on the webpage -->
   <body>
     <!-- h1,h2-6,p,a i --block elements -->
+    <header>
+      <img src="html5.png" alt="html course">
+      <nav>
+        html
+      </nav>
+      <button> Signin</button>
+    </header>
+    <main>
+      <section>
+          <article>
+            article inside section
+          </article>
+      </section>
+      <article>
+        seperate article
+      </article>
+      <aside>
+        aside content
+      </aside>
+    </main>
+
+    <footer>
+      <a href="terms.html">terms and conditions</a>
+    </footer>
+
+
 
     <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
+    <hr>
+    <h2>Heading<br> 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
-    <p>This is the paragraph</p>
+    <div>
+      <p>This is the <span>paragraph</span></p>
+      <button> Login</button>
+    </div>
+    
     <a href="dummy.html">Click Link</a>
     <a href="https://www.google.com">Click Link</a>
     <ol>
@@ -42,6 +78,37 @@
     </ul>
     <!-- inline elements - span, strong, em, b, i -->
     <span>This is a span</span>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Mobile</th>
+          <th>mark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>student 1</td>
+          <td>09829876</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>student 2</td>
+          <td>09829876</td>
+          <td>26</td>
+        </tr><tr>
+          <td>student 3</td>
+          <td>09829876</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">total</th>
+          <th>80</th>
+        </tr>
+      </tfoot>
+    </table>
     <img src="img/vacation.jpg" alt="vacation image">
     <form method="post" action="/submit">
       <label for="username">Username</label>
@@ -71,6 +138,21 @@
       <input type="file" name="fileupload"> 
       <input type="submit">
     </form>
+    <div>
+      <div></div>
+    </div>
+    <span>
+      <span></span>
+    </span>
+    <div>
+      <span></span>
+    </div>
+
+  // dont use
+  <span>
+    <div></div>
+  </span>
+
   </body>
 </html>
 
