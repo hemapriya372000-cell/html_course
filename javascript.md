@@ -41,6 +41,8 @@ num1, num2 -- operands
 
  operation = operand1 + operand2 -- + -operators
  >=,<,++,--,**
+ <,>,<=,>=
+ &&,||
 
  ++, -- -- post increment pre increment
 array = 
@@ -52,3 +54,25 @@ if - {} if(){
 = - vaue assignment
 == - loose equality
 === - strict equality
+
+|| - first true -- second condition wont check
+&& -- first false -- second condition wont check
+
+&& --
+both true -- yes
+both false, either one -- no
+
+||
+
+both true or either one true -- yes
+both false -- no
+
+
+
+git --version
+git config --global user.name "Hema Priya'
+git config --global user.email "hemapriys234@f.sdf'
+
+ git - tool/software --- version control system
+
+ git,gitlab,github -- cloud services
